@@ -44,7 +44,7 @@ const mockMenuItems: MenuItem[] = [
     isSpicy: false
   },
   {
-    id: 2,
+    id: 3,
     nameEn: "Falafel Burger",
     nameAr: "برغر فلافل",
     description: "Crispy falafel patty with tahini sauce in a brioche bun",
@@ -56,7 +56,7 @@ const mockMenuItems: MenuItem[] = [
     isSpicy: true
   },
   {
-    id: 3,
+    id: 2,
     nameEn: "Shawarma Pizza",
     nameAr: "بيتزا شاورما",
     description: "Thin crust pizza topped with chicken shawarma, garlic sauce, and vegetables",
