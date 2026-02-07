@@ -40,14 +40,14 @@ const mockMenuItems: MenuItem[] = [
     imageUrl: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&auto=format&fit=crop",
     categoryId: 1,
     fusionType: "Desserts",
-    isVegetarian: true,
+    isVegetarian: false,
     isSpicy: false
   },
   {
     id: 3,
-    nameEn: "Falafel Burger",
-    nameAr: "برغر فلافل",
-    description: "Crispy falafel patty with tahini sauce in a brioche bun",
+    nameEn: "Shawarma Pizza",
+    nameAr: "بيتزا شاورما",
+    description: "Thin crust pizza topped with chicken shawarma, garlic sauce, and vegetables",
     price: 14.99,
     imageUrl: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w-600&auto=format&fit=crop",
     categoryId: 2,
@@ -57,9 +57,9 @@ const mockMenuItems: MenuItem[] = [
   },
   {
     id: 2,
-    nameEn: "Shawarma Pizza",
-    nameAr: "بيتزا شاورما",
-    description: "Thin crust pizza topped with chicken shawarma, garlic sauce, and vegetables",
+    nameEn: "Falafel Burger",
+    nameAr: "برغر فلافل",
+    description: "Crispy falafel patty with tahini sauce in a brioche bun",
     price: 18.99,
     imageUrl: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w-600&auto=format&fit=crop",
     categoryId: 2,
@@ -100,7 +100,7 @@ const mockMenuItems: MenuItem[] = [
     imageUrl: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&auto=format&fit=crop",
     categoryId: 4,
     fusionType: "Desserts",
-    isVegetarian: true,
+    isVegetarian: false,
     isSpicy: false
   }
 ];
