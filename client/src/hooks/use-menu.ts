@@ -32,19 +32,19 @@ const mockCategories: Category[] = [
 
 const mockMenuItems: MenuItem[] = [
   {
-    id: 1,
-    nameEn: "Hummus with a Twist",
-    nameAr: "حمص بطعم مميز",
-    description: "Creamy chickpea dip with pine nuts and olive oil, served with warm pita",
+    id: 6,
+    nameEn: "Strawberry cupcake ",
+    nameAr: "كب كيك الفراولة",
+    description: "Creamy Strawberry cupcake",
     price: 8.99,
     imageUrl: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&auto=format&fit=crop",
     categoryId: 1,
-    fusionType: "traditional",
+    fusionType: "Desserts",
     isVegetarian: true,
     isSpicy: false
   },
   {
-    id: 2,
+    id: 3,
     nameEn: "Falafel Burger",
     nameAr: "برغر فلافل",
     description: "Crispy falafel patty with tahini sauce in a brioche bun",
@@ -56,7 +56,7 @@ const mockMenuItems: MenuItem[] = [
     isSpicy: true
   },
   {
-    id: 3,
+    id: 2,
     nameEn: "Shawarma Pizza",
     nameAr: "بيتزا شاورما",
     description: "Thin crust pizza topped with chicken shawarma, garlic sauce, and vegetables",
@@ -92,14 +92,14 @@ const mockMenuItems: MenuItem[] = [
     isSpicy: false
   },
   {
-    id: 6,
+    id: 1,
     nameEn: "Baklava Cheesecake",
     nameAr: "تشيز كيك بقلاوة",
     description: "Creamy cheesecake layered with pistachios and phyllo pastry",
     price: 9.99,
     imageUrl: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&auto=format&fit=crop",
     categoryId: 4,
-    fusionType: "fusion",
+    fusionType: "Desserts",
     isVegetarian: true,
     isSpicy: false
   }
