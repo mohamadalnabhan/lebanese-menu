@@ -1,0 +1,230 @@
+Create a visually appealing digital menu for a Lebanese restaurant called "Beirut Bistro" that specializes in Lebanese-Western fusion cuisine. The menu should be designed for a tablet/kiosk interface but responsive for mobile viewing.
+
+SPECIAL REQUIREMENTS:
+
+Bilingual Dish Names: Every menu item must show both:
+
+English name (primary)
+
+Arabic name (in Arabic script, right-to-left aligned)
+
+Include phonetic pronunciation in parentheses for the Arabic names
+
+Every Category Must Have Images: Each food type/category should have a representative high-quality food image that captures the essence of Lebanese-Western fusion.
+
+DESIGN AESTHETICS:
+
+Color Palette: Cedar green (#2D5A27), gold (#D4AF37), cream (#F5F5DC), and terracotta (#9C4A1A)
+
+Typography: Use a clean sans-serif for English (like Montserrat), and a traditional Arabic font (like Amiri or Traditional Arabic)
+
+Layout: Clean, modern with Lebanese cultural motifs (subtle cedar tree patterns, geometric patterns as borders)
+
+Visual Style: Appetizing food photography with warm lighting, showing the fusion aspect clearly
+
+MENU STRUCTURE:
+
+1. RESTAURANT HEADER
+
+Restaurant Name: "Beirut Bistro" in stylish typography
+
+Tagline: "Where Lebanese Tradition Meets Western Innovation"
+
+Logo: Abstract cedar tree + fork/knife fusion icon
+
+Language Toggle: Button to switch primary language display (English ↔ Arabic)
+
+2. MENU CATEGORIES WITH IMAGES
+
+A. MEZZE & APPETIZERS (مقبلات)
+
+Category Image: Beautiful spread of mezze with both traditional and fusion items
+
+Menu Items:
+
+Hummus with Truffle Oil - حمص بالكمأة
+Description: Traditional chickpea dip elevated with black truffle oil
+Price: $8.99
+Halloumi Fries - جبنة حلوم مقلية
+Description: Crispy fried halloumi cheese with pomegranate molasses dip
+Price: $10.50
+Kibbeh Sliders - كبة صغيرة
+Description: Mini kibbeh patties on brioche buns with garlic sauce
+Price: $12.99
+B. FUSION MAIN COURSES (أطباق رئيسية)
+
+Category Image: Plated main course showing Lebanese-Western fusion presentation
+
+Menu Items:
+
+Shawarma Spiced Burger - برجر شاورما
+Description: Beef patty with shawarma spices, garlic sauce, pickles in brioche bun
+Price: $18.99
+Za'atar Crusted Salmon - سلمون بالزعتر
+Description: Atlantic salmon with za'atar crust, lemon tahini sauce, roasted vegetables
+Price: $24.50
+Mansaf Pizza - بيتزا منسف
+Description: Thin crust pizza with yogurt sauce, lamb, pine nuts, and parsley
+Price: $21.99
+C. LEBANESE GRILLS (مشاوي)
+
+Category Image: Mixed grill platter with traditional meats
+
+Menu Items:
+
+Mixed Grill Platter - مشاوي متنوعة
+Description: Chicken shish tawook, kafta, lamb chops with grilled vegetables
+Price: $28.99 (serves 2)
+Filet Mignon with Toum - لحم فيليه مع ثومية
+Description: Premium beef filet with Lebanese garlic sauce, truffle fries
+Price: $32.99
+D. WESTERN WITH LEBANESE TWIST (أطباق غربية)
+
+Category Image: Modern plating showing fusion elements
+
+Menu Items:
+
+Lebanese Steak Frites - ستيك لبناني
+Description: Ribeye steak with garlic sauce, sumac fries, fattoush salad
+Price: $29.99
+Pasta Harra - باستا حرة
+Description: Spaghetti with spicy tomato sauce, chickpeas, pine nuts
+Price: $16.99
+E. DESSERTS (حلويات)
+
+Category Image: Assortment of traditional and fusion desserts
+
+Menu Items:
+
+Baklava Cheesecake - تشيز كيك ببقلاوة
+Description: Classic cheesecake with baklava layers and pistachio crust
+Price: $9.99
+Rosewater Crème Brûlée - كريم برولي بماء الورد
+Description: Traditional dessert infused with Lebanese rosewater
+Price: $8.50
+F. DRINKS (مشروبات)
+
+Category Image: Assortment of traditional and modern drinks
+
+Menu Items:
+
+Cardamom Coffee - قهوة بالهيل
+Price: $4.50
+Pomegranate Mojito (Non-alcoholic) - موجيتو رمان
+Price: $7.99
+Jallab Smoothie - جلاب
+Price: $6.99
+3. VISUAL ELEMENTS FOR EACH ITEM:
+
+Dish Image: Small thumbnail next to each menu item
+
+Fusion Indicator Icon: Small icon showing if item is:
+
+🟢 Traditional Lebanese
+
+🔵 Lebanese-Western Fusion
+
+🟡 Western with Lebanese influence
+
+Spice Level Indicator (🌶️): 1-3 peppers for heat level
+
+Dietary Icons: (V) Vegetarian, (GF) Gluten-free options
+
+4. SPECIAL FEATURES SECTION
+
+"Chef's Fusion Special" highlighted box
+
+"Family Platter" options for sharing
+
+"Build Your Own Mezze" interactive section
+
+5. MENU DESIGN DETAILS:
+
+Grid Layout: Responsive grid that shows 1 column on mobile, 2 on tablet, 3 on desktop
+
+Card Design: Each menu item in a card with:
+
+Dish image (left/top)
+
+Bilingual name (prominent)
+
+Description (2 lines max)
+
+Price (bold, right-aligned)
+
+Icons (dietary, spice, fusion type)
+
+Category Navigation: Fixed/sticky category menu for easy jumping
+
+Visual Separators: Use Lebanese pattern borders between sections
+
+6. INTERACTIVE ELEMENTS:
+
+Hover Effects: Cards lift slightly, image zooms slightly
+
+Quick View: Click item to see larger image and full details
+
+Filter Options: Filter by: All | Traditional | Fusion | Vegetarian
+
+Add to Order Button: (If implementing ordering functionality)
+
+7. CULTURAL TOUCHES:
+
+Use Arabic calligraphy for section headers
+
+Incorporate subtle Lebanese patterns in backgrounds/borders
+
+Color scheme reflecting Lebanese flag colors (red, white, green) tastefully
+
+Cedar tree motif as decorative element
+
+IMAGE REQUIREMENTS:
+
+Food Photography Style: Bright, natural lighting, professional food styling
+
+Fusion Visualization: Clearly show both Lebanese and Western elements in each dish
+
+Consistent Style: All images should have similar lighting, angle, and background
+
+Appetizing: Make the food look delicious and authentic
+
+EXAMPLE OF BILINGUAL FORMATTING:
+
+text
+SHAWARMA SPICED BURGER
+برجر شاورما (Bur-ger Sha-wa-rmā)
+
+Beef patty infused with shawarma spices, garlic 
+sauce, pickles, served in brioche bun with fries.
+
+$18.99    🌶️    🔵 Fusion
+DELIVERABLE:
+Create a complete HTML/CSS implementation with:
+
+Responsive design
+
+All images as placeholders with descriptive alt text in both languages
+
+Bilingual text properly displayed
+
+Hover and interactive effects
+
+Mobile-friendly navigation
+
+NO:
+
+No complex JavaScript frameworks
+
+No backend integration
+
+No actual payment processing
+
+YES:
+
+Pure frontend design
+
+Works offline
+
+Accessible (ARIA labels for screen readers)
+
+Proper RTL support for Arabic text
